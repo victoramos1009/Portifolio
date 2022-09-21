@@ -1,0 +1,25 @@
+body {
+}
+
+img {
+    margin-right: 20px;
+    margin: 20px;
+    height: 550px;
+    width:  480px;
+    float: left;
+
+}
+
+h1 {
+    text-align: center;
+
+}
+
+p {
+    height: 20px;
+    width: 1200px;
+    font: normal 18px arial ;
+    text-align: justify;
+    text-indent: 30px;
+    margin-top: 80px;
+}
