@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 #informacoes {
 
     height: 100vh;
@@ -23,16 +21,6 @@ img {
 
 }
 
-
-
-.bemvindo {
-    height: 100px;
-    width: 1000px;
-    font: normal 30px arial ;
-    position: relative;
-    top: 10px;
-}
-
 #textinfo {
     height: 40px;
     width: 1200px;
@@ -42,6 +30,7 @@ img {
     letter-spacing: 1px;
     line-height: 1.3;
 }
+
  #textinfo p {
     margin-top: 35px;
  }
@@ -90,4 +79,21 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: black;
+    
+}
+
+#Finalizacao {
+    height: 110vh;
+    width: 100%;
+    background-color: #c42f54;
+}
+
+.bemvindo {
+    height: 100px;
+    width: 1000px;
+    font: normal 30px arial ;
+    position: relative;
+    top: 10px;
+    
 }
