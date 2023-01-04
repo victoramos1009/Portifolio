@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="J:\Portifolio\portifolio\JavaScript\script.js"></script>
     <link rel="stylesheet" href="css/style.css">
-    <link href="" rel="stylesheet">
     <title>Portifolio</title>
+    
 </head>
 <body>
     <main>
@@ -32,29 +33,52 @@
                 Tenho contato com a tecnologia desde muito novo, fazendo minhas proprias manutenção e 
                 configuranção de software, e sempre buscando me aperfeiçoa mais. 
             </p>
-
-            <button class="button" id="curriculo">Curriculo</button>
-            <button class="button" id="linkedin">Linkedin</button>
-            <button class="button" id="github">Github</button>
+            
+                <button class="btn" id="btnC">
+                    <a href="https://drive.google.com/file/d/18WY_xiG__StssuXAhCVZMa3VCfEiDtw2/view?usp=share_link" target="_blank">
+                        Curriculo
+                    </a>
+                </button>
+        
+                <button class="btn" id="btnLd" onclick="btnlinkedin">
+                        Linkedin
+                </button>
+    
+                <button class="btn" id="btnGt">
+                    <a href="https://github.com/victoramos1009" target="_blank">
+                    Github
+                    </a>
+                </button>
 
             </div>
             
         </div>
-    <div id="conhecimento">
+    <div id="container">
         <h1 class="bemvindo">CONHECIMENTOS</h1>
-        <p> Curso tecnico - ADS (analise e desenvolvimento de sistemas)</p>
+            <div class="conteudoads">
+                <p> Curso tecnico - ADS (analise e desenvolvimento de sistemas)</p>
+            </div>
 
-        <span class="material-icons"> HTML </span>
-        <p>HTML Tenho conhecimentos basicos em html, mais sempre buscando aprender cada dia mais!</p>
-        
-        <span class="material-icons"> CSS </span>
-        <p>CSS Conhecimentos basicos. </p>
-        
-        <span class="material-icons"> JAVASCRIPT </span>
-        <P>JavaScript</P>
+            <div class="conteudohtml">
+                <p>HTML Tenho conhecimentos basicos em html, 
+                <br>sempre buscando melhorar mais!</p>
+                <span class="material-icons"> HTML </span>
+            </div>
 
-        <span class="material-icons"> GIT </span>
-        <p>GitHub</p>
+            <div class="conteudocss">
+                <p>CSS Conhecimentos basicos. </p>
+                <span class="material-icons"> CSS </span>
+            </div>
+
+            <div class="conteudojs">
+                <P>JavaScript</P>
+                <span class="material-icons"> JS </span>
+            </div>
+
+            <div class="conteudogit">
+                <p>GitHub</p>
+                <span class="material-icons"> GIT </span>
+            </div>
     </div>
 
     <div id="Finalizacao">

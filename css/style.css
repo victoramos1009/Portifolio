@@ -35,13 +35,14 @@ img {
     margin-top: 35px;
  }
 
-#conhecimento {
-    height: 110vh;
+#container {
+    position: relative;
+    height: 300vh;
     width: 100%;
     background-color: #6F38C5 ;
 }
 
-.button {
+.btn {
     background-color: #4CAF50;
     border: none;
     color: white;
@@ -57,24 +58,28 @@ img {
     position: relative;
     left: 150px;
     top: 40px;
+    text-decoration: none;
     }
 
-#curriculo:hover {
+#btnC:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
-#linkedin:hover {
+#btnLd:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
-#github:hover {
+
+#btnGt:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .material-icons {
     background: rgb(255, 255, 255);
-    position: relative;
+    position: absolute;
     width: 100px;
     height: 100px;
     border-radius: 15%;
+    left: 240px;
+    top: 80px;
 
     display: flex;
     justify-content: center;
@@ -95,5 +100,92 @@ img {
     font: normal 30px arial ;
     position: relative;
     top: 10px;
+    
+}
+
+.conteudoads {
+    position: absolute;
+    width: 45%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid red;
+    box-sizing: border-box;
+    margin: 30px;
+    margin-top: 10px;
+    display: inline-block;
+
+    font-size: 25px;
+    text-align: center;
+    position: top;
+    
+}
+
+.conteudohtml {
+    position: absolute;
+    width: 45%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid red;
+    box-sizing: border-box;
+    margin: 50%;
+    margin-top: 10px;
+    left: 40px;
+    
+
+    text-align: center;
+    position: top;
+    font-size: 25px;
+    
+}
+
+.conteudocss {
+    position: absolute;
+    width: 45%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid red;
+    box-sizing: border-box;
+    margin: 30px;
+    margin-top: 250px;
+    display: inline-block;
+
+    font-size: 25px;
+    text-align: center;
+    position: top;
+    
+}
+
+.conteudojs {
+    position: absolute;
+    width: 45%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid red;
+    box-sizing: border-box;
+    margin: 50%;
+    margin-top: 250px;
+    left: 40px;
+    
+
+    text-align: center;
+    position: top;
+    font-size: 25px;
+    
+}
+
+.conteudogit {
+    position: absolute;
+    width: 45%;
+    height: 200px;
+    padding: 10px;
+    border: 0px solid red;
+    box-sizing: border-box;
+    margin: 350px;
+    margin-top: 500px;
+    display: inline-block;
+
+    font-size: 25px;
+    text-align: center;
+    position: top;
     
 }
